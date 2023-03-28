@@ -1,6 +1,6 @@
 # dlab_snake
-2021 NYCU Digital Circuit Lab - Final Group Project
-
+Digital Circuit Lab - Final Group Project\
+2021 Fall, by Prof. 范倫達
 Implementing the Snake game on FPGA board with Verilog.
 
 ### Demo
