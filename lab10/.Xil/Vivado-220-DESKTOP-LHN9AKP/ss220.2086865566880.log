@@ -1,0 +1,44 @@
+srcscan starts
+ERROR: cannot open verilog file 'D:/Aaron/Desktop/final/0613304_LAB10/lab10/lab10.srcs/sources_1/sram_fish1complex.v' (SORT-1002)
+INFO: analyzing module clk_divider (VERI-9002)
+INFO: analyzing module debounce (VERI-9002)
+INFO: analyzing module lab10 (VERI-9002)
+D:/Aaron/Desktop/final/0613304_LAB10/lab10/lab10.srcs/sources_1/lab10.v(228): WARNING: identifier 'snake_clock' is used before its declaration (VERI-1875)
+D:/Aaron/Desktop/final/0613304_LAB10/lab10/lab10.srcs/sources_1/lab10.v(229): WARNING: identifier 'snake_clock' is used before its declaration (VERI-1875)
+D:/Aaron/Desktop/final/0613304_LAB10/lab10/lab10.srcs/sources_1/lab10.v(233): WARNING: identifier 'snake_clock' is used before its declaration (VERI-1875)
+D:/Aaron/Desktop/final/0613304_LAB10/lab10/lab10.srcs/sources_1/lab10.v(234): WARNING: identifier 'snake_clock' is used before its declaration (VERI-1875)
+D:/Aaron/Desktop/final/0613304_LAB10/lab10/lab10.srcs/sources_1/lab10.v(238): WARNING: identifier 'snake_clock' is used before its declaration (VERI-1875)
+D:/Aaron/Desktop/final/0613304_LAB10/lab10/lab10.srcs/sources_1/lab10.v(239): WARNING: identifier 'snake_clock' is used before its declaration (VERI-1875)
+D:/Aaron/Desktop/final/0613304_LAB10/lab10/lab10.srcs/sources_1/lab10.v(243): WARNING: identifier 'snake_clock' is used before its declaration (VERI-1875)
+D:/Aaron/Desktop/final/0613304_LAB10/lab10/lab10.srcs/sources_1/lab10.v(244): WARNING: identifier 'snake_clock' is used before its declaration (VERI-1875)
+D:/Aaron/Desktop/final/0613304_LAB10/lab10/lab10.srcs/sources_1/lab10.v(258): WARNING: identifier 'speed5' is used before its declaration (VERI-1875)
+INFO: analyzing module sram (VERI-9002)
+INFO: analyzing module sram_fish1c (VERI-9002)
+ERROR: cannot open verilog file 'D:/Aaron/Desktop/final/0613304_LAB10/lab10/lab10.srcs/sources_1/sram_fish1complex.v' (VERI-1517)
+INFO: analyzing module sram_fish1d (VERI-9002)
+INFO: analyzing module sram_fish2 (VERI-9002)
+INFO: analyzing module sram_fish3 (VERI-9002)
+INFO: analyzing module sram_seabed (VERI-9002)
+INFO: analyzing module sram_user (VERI-9002)
+INFO: analyzing module vga_sync (VERI-9002)
+Listing tops:
+VeriTop library:xil_defaultlib mod:lab10
+VeriTop library:xil_defaultlib mod:sram
+VeriTop library:xil_defaultlib mod:sram_fish1c
+VeriTop library:xil_defaultlib mod:sram_fish1d
+VeriTop library:xil_defaultlib mod:sram_fish2
+VeriTop library:xil_defaultlib mod:sram_fish3
+VeriTop library:xil_defaultlib mod:sram_user
+END of tops
+D:/Aaron/Desktop/final/0613304_LAB10/lab10/lab10.srcs/sources_1/lab10.v(23): INFO: compiling module 'lab10_default' (VERI-1018)
+D:/Aaron/Desktop/final/0613304_LAB10/lab10/lab10.srcs/sources_1/sram.v(8): INFO: compiling module 'sram_default' (VERI-1018)
+D:/Aaron/Desktop/final/0613304_LAB10/lab10/lab10.srcs/sources_1/sram_fish1c.v(8): INFO: compiling module 'sram_fish1c_default' (VERI-1018)
+D:/Aaron/Desktop/final/0613304_LAB10/lab10/lab10.srcs/sources_1/sram_fish1d.v(8): INFO: compiling module 'sram_fish1d_default' (VERI-1018)
+D:/Aaron/Desktop/final/0613304_LAB10/lab10/lab10.srcs/sources_1/sram_fish2.v(8): INFO: compiling module 'sram_fish2_default' (VERI-1018)
+D:/Aaron/Desktop/final/0613304_LAB10/lab10/lab10.srcs/sources_1/sram_fish3.v(8): INFO: compiling module 'sram_fish3_default' (VERI-1018)
+D:/Aaron/Desktop/final/0613304_LAB10/lab10/lab10.srcs/sources_1/new/sram_user.v(8): INFO: compiling module 'sram_user_default' (VERI-1018)
+ModName: clk_divider(divider=2)
+ModName: sram_seabed(DATA_WIDTH=12,ADDR_WIDTH=18,RAM_SIZE=76800)
+BaseName clk_divider has 1 entries
+BaseName sram_seabed has 1 entries
+srcscan exits with return value 0

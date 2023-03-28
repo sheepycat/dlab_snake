@@ -1,0 +1,267 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Sun Jan  9 21:30:12 2022
+# Process ID: 9640
+# Current directory: C:/Users/Shlab_47/Desktop/0109/final/0613304_LAB10/lab10
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10044 C:\Users\Shlab_47\Desktop\0109\final\0613304_LAB10\lab10\lab10.xpr
+# Log file: C:/Users/Shlab_47/Desktop/0109/final/0613304_LAB10/lab10/vivado.log
+# Journal file: C:/Users/Shlab_47/Desktop/0109/final/0613304_LAB10/lab10\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Shlab_47/Desktop/0109/final/0613304_LAB10/lab10/lab10.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/Shlab_47/Desktop/final/0613304_LAB10/lab10' since last save.
+WARNING: [filemgmt 56-2] Default IP Output Path : Could not find the directory 'C:/Users/Shlab_47/Desktop/0109/final/0613304_LAB10/lab10/lab10.gen/sources_1', nor could it be found using path 'C:/Users/Shlab_47/Desktop/final/0613304_LAB10/lab10/lab10.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2021.1/data/ip'.
+open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:05 . Memory (MB): peak = 1462.957 ; gain = 0.000
+update_compile_order -fileset sources_1
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/Shlab_47/Desktop/0109/final/0613304_LAB10/lab10/lab10.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 3
+[Sun Jan  9 21:33:42 2022] Launched synth_1...
+Run output will be captured here: C:/Users/Shlab_47/Desktop/0109/final/0613304_LAB10/lab10/lab10.runs/synth_1/runme.log
+[Sun Jan  9 21:33:42 2022] Launched impl_1...
+Run output will be captured here: C:/Users/Shlab_47/Desktop/0109/final/0613304_LAB10/lab10/lab10.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3414] Connected to existing cs_server.
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210319A43280A
+open_hw_target: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2721.570 ; gain = 1258.613
+set_property PROGRAM.FILE {C:/Users/Shlab_47/Desktop/0109/final/0613304_LAB10/lab10/lab10.runs/impl_1/lab10.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/Shlab_47/Desktop/0109/final/0613304_LAB10/lab10/lab10.runs/impl_1/lab10.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/Shlab_47/Desktop/0109/final/0613304_LAB10/lab10/lab10.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 3
+[Sun Jan  9 22:07:15 2022] Launched synth_1...
+Run output will be captured here: C:/Users/Shlab_47/Desktop/0109/final/0613304_LAB10/lab10/lab10.runs/synth_1/runme.log
+[Sun Jan  9 22:07:15 2022] Launched impl_1...
+Run output will be captured here: C:/Users/Shlab_47/Desktop/0109/final/0613304_LAB10/lab10/lab10.runs/impl_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/Shlab_47/Desktop/0109/final/0613304_LAB10/lab10/lab10.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 3
+[Sun Jan  9 22:12:20 2022] Launched synth_1...
+Run output will be captured here: C:/Users/Shlab_47/Desktop/0109/final/0613304_LAB10/lab10/lab10.runs/synth_1/runme.log
+[Sun Jan  9 22:12:20 2022] Launched impl_1...
+Run output will be captured here: C:/Users/Shlab_47/Desktop/0109/final/0613304_LAB10/lab10/lab10.runs/impl_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/Shlab_47/Desktop/0109/final/0613304_LAB10/lab10/lab10.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 3
+[Sun Jan  9 22:20:07 2022] Launched synth_1...
+Run output will be captured here: C:/Users/Shlab_47/Desktop/0109/final/0613304_LAB10/lab10/lab10.runs/synth_1/runme.log
+[Sun Jan  9 22:20:07 2022] Launched impl_1...
+Run output will be captured here: C:/Users/Shlab_47/Desktop/0109/final/0613304_LAB10/lab10/lab10.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Device 21-403] Loading part xc7a35ticsg324-1L
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.070 . Memory (MB): peak = 3062.582 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 665 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'lab10' is not ideal for floorplanning, since the cellview 'lab10' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-479] Netlist was created with Vivado 2021.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 3771.855 ; gain = 0.000
+Restored from archive | CPU: 2.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 3771.855 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 3771.855 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:22 ; elapsed = 00:00:17 . Memory (MB): peak = 3926.250 ; gain = 1137.492
+CRITICAL WARNING: [Timing 38-282] The design failed to meet the timing requirements. Please see the timing summary report for details on the timing violations.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/Shlab_47/Desktop/0109/final/0613304_LAB10/lab10/lab10.runs/impl_1/lab10.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/Shlab_47/Desktop/0109/final/0613304_LAB10/lab10/lab10.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 3
+[Sun Jan  9 22:37:45 2022] Launched synth_1...
+Run output will be captured here: C:/Users/Shlab_47/Desktop/0109/final/0613304_LAB10/lab10/lab10.runs/synth_1/runme.log
+[Sun Jan  9 22:37:45 2022] Launched impl_1...
+Run output will be captured here: C:/Users/Shlab_47/Desktop/0109/final/0613304_LAB10/lab10/lab10.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/Shlab_47/Desktop/0109/final/0613304_LAB10/lab10/lab10.runs/impl_1/lab10.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/Shlab_47/Desktop/0109/final/0613304_LAB10/lab10/lab10.runs/impl_1/lab10.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/Shlab_47/Desktop/0109/final/0613304_LAB10/lab10/lab10.runs/impl_1/lab10.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/Shlab_47/Desktop/0109/final/0613304_LAB10/lab10/lab10.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 3
+[Sun Jan  9 23:03:25 2022] Launched synth_1...
+Run output will be captured here: C:/Users/Shlab_47/Desktop/0109/final/0613304_LAB10/lab10/lab10.runs/synth_1/runme.log
+[Sun Jan  9 23:03:25 2022] Launched impl_1...
+Run output will be captured here: C:/Users/Shlab_47/Desktop/0109/final/0613304_LAB10/lab10/lab10.runs/impl_1/runme.log
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210319A43280A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210319A43280A
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/Shlab_47/Desktop/0109/final/0613304_LAB10/lab10/lab10.runs/impl_1/lab10.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/Shlab_47/Desktop/0109/final/0613304_LAB10/lab10/lab10.runs/impl_1/lab10.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+add_files -norecurse {C:/Users/Shlab_47/Desktop/0109/final/0613304_LAB10/lab10/lab10.srcs/sources_1/lose.mem C:/Users/Shlab_47/Desktop/0109/final/0613304_LAB10/lab10/lab10.srcs/sources_1/win.mem}
+add_files -norecurse {C:/Users/Shlab_47/Desktop/0109/final/0613304_LAB10/lab10/lab10.srcs/sources_1/sram_win.v C:/Users/Shlab_47/Desktop/0109/final/0613304_LAB10/lab10/lab10.srcs/sources_1/sram_lose.v}
+update_compile_order -fileset sources_1
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/Shlab_47/Desktop/0109/final/0613304_LAB10/lab10/lab10.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 3
+[Sun Jan  9 23:27:04 2022] Launched synth_1...
+Run output will be captured here: C:/Users/Shlab_47/Desktop/0109/final/0613304_LAB10/lab10/lab10.runs/synth_1/runme.log
+[Sun Jan  9 23:27:04 2022] Launched impl_1...
+Run output will be captured here: C:/Users/Shlab_47/Desktop/0109/final/0613304_LAB10/lab10/lab10.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/Shlab_47/Desktop/0109/final/0613304_LAB10/lab10/lab10.runs/impl_1/lab10.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+update_compile_order -fileset sources_1
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/Shlab_47/Desktop/0109/final/0613304_LAB10/lab10/lab10.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 3
+[Sun Jan  9 23:55:22 2022] Launched synth_1...
+Run output will be captured here: C:/Users/Shlab_47/Desktop/0109/final/0613304_LAB10/lab10/lab10.runs/synth_1/runme.log
+[Sun Jan  9 23:55:22 2022] Launched impl_1...
+Run output will be captured here: C:/Users/Shlab_47/Desktop/0109/final/0613304_LAB10/lab10/lab10.runs/impl_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/Shlab_47/Desktop/0109/final/0613304_LAB10/lab10/lab10.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 3
+[Sun Jan  9 23:57:13 2022] Launched synth_1...
+Run output will be captured here: C:/Users/Shlab_47/Desktop/0109/final/0613304_LAB10/lab10/lab10.runs/synth_1/runme.log
+[Sun Jan  9 23:57:13 2022] Launched impl_1...
+Run output will be captured here: C:/Users/Shlab_47/Desktop/0109/final/0613304_LAB10/lab10/lab10.runs/impl_1/runme.log
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210319A43280A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210319A43280A
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/Shlab_47/Desktop/0109/final/0613304_LAB10/lab10/lab10.runs/impl_1/lab10.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/Shlab_47/Desktop/0109/final/0613304_LAB10/lab10/lab10.runs/impl_1/lab10.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/Shlab_47/Desktop/0109/final/0613304_LAB10/lab10/lab10.runs/impl_1/lab10.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/Shlab_47/Desktop/0109/final/0613304_LAB10/lab10/lab10.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 3
+[Mon Jan 10 00:33:07 2022] Launched synth_1...
+Run output will be captured here: C:/Users/Shlab_47/Desktop/0109/final/0613304_LAB10/lab10/lab10.runs/synth_1/runme.log
+[Mon Jan 10 00:33:07 2022] Launched impl_1...
+Run output will be captured here: C:/Users/Shlab_47/Desktop/0109/final/0613304_LAB10/lab10/lab10.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/Shlab_47/Desktop/0109/final/0613304_LAB10/lab10/lab10.runs/impl_1/lab10.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/Shlab_47/Desktop/0109/final/0613304_LAB10/lab10/lab10.runs/impl_1/lab10.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/Shlab_47/Desktop/0109/final/0613304_LAB10/lab10/lab10.runs/impl_1/lab10.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/Shlab_47/Desktop/0109/final/0613304_LAB10/lab10/lab10.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 3
+[Mon Jan 10 00:56:56 2022] Launched synth_1...
+Run output will be captured here: C:/Users/Shlab_47/Desktop/0109/final/0613304_LAB10/lab10/lab10.runs/synth_1/runme.log
+[Mon Jan 10 00:56:56 2022] Launched impl_1...
+Run output will be captured here: C:/Users/Shlab_47/Desktop/0109/final/0613304_LAB10/lab10/lab10.runs/impl_1/runme.log

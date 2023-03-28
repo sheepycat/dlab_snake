@@ -1,0 +1,42 @@
++--------------------------+--------------------------+----------------------------------------------------------------------------------------------------------+
+|       Launch Clock       |      Capture Clock       |                                                 Pin                                                      |
++--------------------------+--------------------------+----------------------------------------------------------------------------------------------------------+
+|              sys_clk_pin |              sys_clk_pin |                                                                                        snake_pos_reg[8]/D|
+|              sys_clk_pin |              sys_clk_pin |                                                                                        snake_pos_reg[9]/D|
+|              sys_clk_pin |              sys_clk_pin |                                                                                       snake_node_reg[5]/D|
+|              sys_clk_pin |              sys_clk_pin |                                                                                snake_node_reg[5]_rep__0/D|
+|              sys_clk_pin |              sys_clk_pin |                                                                                snake_node_reg[4]_rep__3/D|
+|              sys_clk_pin |              sys_clk_pin |                                                                                snake_node_reg[5]_rep__1/D|
+|              sys_clk_pin |              sys_clk_pin |                                                                                snake_node_reg[5]_rep__2/D|
+|              sys_clk_pin |              sys_clk_pin |                                                                                       snake_node_reg[1]/D|
+|              sys_clk_pin |              sys_clk_pin |                                                                                       snake_node_reg[3]/D|
+|              sys_clk_pin |              sys_clk_pin |                                                                                snake_node_reg[3]_rep__5/D|
+|              sys_clk_pin |              sys_clk_pin |                                                                                          rgb_reg_reg[3]/D|
+|              sys_clk_pin |              sys_clk_pin |                                                                                            heart_reg[2]/D|
+|              sys_clk_pin |              sys_clk_pin |                                                                                            heart_reg[1]/D|
+|              sys_clk_pin |              sys_clk_pin |                                                                                            score_reg[2]/D|
+|              sys_clk_pin |              sys_clk_pin |                                                                                            score_reg[1]/D|
+|              sys_clk_pin |              sys_clk_pin |                                                                                            score_reg[0]/D|
+|              sys_clk_pin |              sys_clk_pin |                                                                                         add_done_reg[0]/D|
+|              sys_clk_pin |              sys_clk_pin |                                                                                       score_done_reg[0]/D|
+|              sys_clk_pin |              sys_clk_pin |                                                                                    snake_region_reg[18]/D|
+|              sys_clk_pin |              sys_clk_pin |                                                                                    snake_region_reg[19]/D|
+|              sys_clk_pin |              sys_clk_pin |                                                                                    snake_region_reg[14]/D|
+|              sys_clk_pin |              sys_clk_pin |                                                                                     snake_region_reg[2]/D|
+|              sys_clk_pin |              sys_clk_pin |                                                                                     snake_region_reg[5]/D|
+|              sys_clk_pin |              sys_clk_pin |                                                                                     snake_region_reg[0]/D|
+|              sys_clk_pin |              sys_clk_pin |                                                                                    snake_region_reg[13]/D|
+|              sys_clk_pin |              sys_clk_pin |                                                                                     snake_region_reg[9]/D|
+|              sys_clk_pin |              sys_clk_pin |                                                                                     snake_region_reg[4]/D|
+|              sys_clk_pin |              sys_clk_pin |                                                                                    snake_region_reg[17]/D|
+|              sys_clk_pin |              sys_clk_pin |                                                                                    snake_region_reg[11]/D|
+|              sys_clk_pin |              sys_clk_pin |                                                                                     snake_region_reg[6]/D|
+|              sys_clk_pin |              sys_clk_pin |                                                                                     snake_region_reg[3]/D|
+|              sys_clk_pin |              sys_clk_pin |                                                                                    snake_region_reg[12]/D|
+|              sys_clk_pin |              sys_clk_pin |                                                                                     snake_region_reg[1]/D|
+|              sys_clk_pin |              sys_clk_pin |                                                                                     snake_region_reg[8]/D|
+|              sys_clk_pin |              sys_clk_pin |                                                                                    snake_region_reg[16]/D|
+|              sys_clk_pin |              sys_clk_pin |                                                                                    snake_region_reg[15]/D|
+|              sys_clk_pin |              sys_clk_pin |                                                                                     snake_region_reg[7]/D|
+|              sys_clk_pin |              sys_clk_pin |                                                                                    snake_region_reg[20]/D|
++--------------------------+--------------------------+----------------------------------------------------------------------------------------------------------+
